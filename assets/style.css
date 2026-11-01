@@ -33,3 +33,6 @@ img{max-width:100%;height:auto}
 header.site{flex-wrap:wrap;gap:.4rem 1rem}
 nav{display:flex;flex-wrap:wrap}
 .btn{max-width:100%}
+header.site a.brand img.word{width:auto;height:38px;border-radius:0}
+.hero-logo{width:min(100%,360px);height:auto;margin:0 0 .6rem -.4rem;display:block}
+@media(min-width:760px){.hero-logo{width:min(100%,420px)}}
